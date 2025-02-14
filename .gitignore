@@ -1,19 +1,26 @@
-# Dependencies
-/node_modules
-/vendor
+# Data files
+data/
+logs/
+*.log
 
-# Environment files
+# Virtual environments
+venv/
+env/
+
+# Environment variables and secrets
 .env
-.env.local
+.streamlit/secrets.toml
 
-# Build directories
-/dist
-/build
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Development environments
+.devcontainer/
 
 # IDE specific files
-.idea/
 .vscode/
 
-# OS specific files
+# Operating system files
 .DS_Store
-Thumbs.db
